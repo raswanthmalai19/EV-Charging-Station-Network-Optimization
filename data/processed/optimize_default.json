@@ -1,0 +1,536 @@
+{
+  "milp": {
+    "method": "MILP (exact)",
+    "status": "Optimal",
+    "solve_time_sec": 1.858,
+    "radius_km": 5,
+    "budget": 10,
+    "baseline_population": 9264909,
+    "covered_population": 9555141,
+    "total_population": 11780046,
+    "coverage_pct": 81.1,
+    "selected_sites": [
+      {
+        "zcta": "43119",
+        "latitude": 39.940928,
+        "longitude": -83.205719,
+        "population": 29423,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44004",
+        "latitude": 41.855938,
+        "longitude": -80.790536,
+        "population": 31076,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44052",
+        "latitude": 41.460687,
+        "longitude": -82.167946,
+        "population": 28067,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44203",
+        "latitude": 41.020135,
+        "longitude": -81.63068,
+        "population": 38705,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44266",
+        "latitude": 41.16897,
+        "longitude": -81.196962,
+        "population": 32301,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45030",
+        "latitude": 39.257248,
+        "longitude": -84.763252,
+        "population": 21328,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45042",
+        "latitude": 39.556885,
+        "longitude": -84.420158,
+        "population": 28217,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45102",
+        "latitude": 39.01719,
+        "longitude": -84.204345,
+        "population": 24838,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45133",
+        "latitude": 39.159797,
+        "longitude": -83.571065,
+        "population": 23604,
+        "existing_stations": 1,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45503",
+        "latitude": 39.965081,
+        "longitude": -83.767539,
+        "population": 32673,
+        "existing_stations": 0,
+        "newly_covered": true
+      }
+    ]
+  },
+  "greedy": {
+    "method": "Greedy (heuristic)",
+    "status": "Heuristic (not certified optimal)",
+    "solve_time_sec": 0.0069,
+    "radius_km": 5,
+    "budget": 10,
+    "baseline_population": 9264909,
+    "covered_population": 9555141,
+    "total_population": 11780046,
+    "coverage_pct": 81.1,
+    "selected_sites": [
+      {
+        "zcta": "44203",
+        "latitude": 41.020135,
+        "longitude": -81.63068,
+        "population": 38705,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45503",
+        "latitude": 39.965081,
+        "longitude": -83.767539,
+        "population": 32673,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44266",
+        "latitude": 41.16897,
+        "longitude": -81.196962,
+        "population": 32301,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44004",
+        "latitude": 41.855938,
+        "longitude": -80.790536,
+        "population": 31076,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "43119",
+        "latitude": 39.940928,
+        "longitude": -83.205719,
+        "population": 29423,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45042",
+        "latitude": 39.556885,
+        "longitude": -84.420158,
+        "population": 28217,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "44052",
+        "latitude": 41.460687,
+        "longitude": -82.167946,
+        "population": 28067,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45102",
+        "latitude": 39.01719,
+        "longitude": -84.204345,
+        "population": 24838,
+        "existing_stations": 0,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45133",
+        "latitude": 39.159797,
+        "longitude": -83.571065,
+        "population": 23604,
+        "existing_stations": 1,
+        "newly_covered": true
+      },
+      {
+        "zcta": "45030",
+        "latitude": 39.257248,
+        "longitude": -84.763252,
+        "population": 21328,
+        "existing_stations": 0,
+        "newly_covered": true
+      }
+    ]
+  },
+  "charger_allocation": [
+    {
+      "site_index": 74,
+      "zcta": "43119",
+      "population": 29423,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 413,
+      "zcta": "44004",
+      "population": 31076,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 437,
+      "zcta": "44052",
+      "population": 28067,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 518,
+      "zcta": "44203",
+      "population": 38705,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 545,
+      "zcta": "44266",
+      "population": 32301,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 798,
+      "zcta": "45030",
+      "population": 21328,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 806,
+      "zcta": "45042",
+      "population": 28217,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 824,
+      "zcta": "45102",
+      "population": 24838,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 842,
+      "zcta": "45133",
+      "population": 23604,
+      "was_zero_station_gap_zone": false,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    },
+    {
+      "site_index": 1023,
+      "zcta": "45503",
+      "population": 32673,
+      "was_zero_station_gap_zone": true,
+      "l2_chargers": 3,
+      "dcfc_chargers": 1,
+      "total_capacity_kw": 171,
+      "site_cost_usd": 58000,
+      "solver_status": "Optimal"
+    }
+  ],
+  "sensitivity_budget_sweep": [
+    {
+      "budget": 1,
+      "covered_population": 9303614,
+      "coverage_pct": 79.0,
+      "selected_sites": 1
+    },
+    {
+      "budget": 2,
+      "covered_population": 9336287,
+      "coverage_pct": 79.3,
+      "selected_sites": 2
+    },
+    {
+      "budget": 3,
+      "covered_population": 9368588,
+      "coverage_pct": 79.5,
+      "selected_sites": 3
+    },
+    {
+      "budget": 5,
+      "covered_population": 9429087,
+      "coverage_pct": 80.0,
+      "selected_sites": 5
+    },
+    {
+      "budget": 7,
+      "covered_population": 9485371,
+      "coverage_pct": 80.5,
+      "selected_sites": 7
+    },
+    {
+      "budget": 10,
+      "covered_population": 9555141,
+      "coverage_pct": 81.1,
+      "selected_sites": 10
+    },
+    {
+      "budget": 15,
+      "covered_population": 9660143,
+      "coverage_pct": 82.0,
+      "selected_sites": 15
+    },
+    {
+      "budget": 20,
+      "covered_population": 9753320,
+      "coverage_pct": 82.8,
+      "selected_sites": 20
+    },
+    {
+      "budget": 25,
+      "covered_population": 9837188,
+      "coverage_pct": 83.5,
+      "selected_sites": 25
+    },
+    {
+      "budget": 30,
+      "covered_population": 9917097,
+      "coverage_pct": 84.2,
+      "selected_sites": 30
+    },
+    {
+      "budget": 40,
+      "covered_population": 10054111,
+      "coverage_pct": 85.3,
+      "selected_sites": 40
+    },
+    {
+      "budget": 50,
+      "covered_population": 10174119,
+      "coverage_pct": 86.4,
+      "selected_sites": 50
+    }
+  ],
+  "greedy_vs_exact_sweep": [
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 3,
+      "milp_covered_pop": 9368588,
+      "milp_time_sec": 0.059,
+      "greedy_covered_pop": 9368588,
+      "greedy_time_sec": 0.0021,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 5,
+      "milp_covered_pop": 9429087,
+      "milp_time_sec": 0.055,
+      "greedy_covered_pop": 9429087,
+      "greedy_time_sec": 0.0035,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 8,
+      "milp_covered_pop": 9510209,
+      "milp_time_sec": 0.055,
+      "greedy_covered_pop": 9510209,
+      "greedy_time_sec": 0.0055,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 10,
+      "milp_covered_pop": 9555141,
+      "milp_time_sec": 0.055,
+      "greedy_covered_pop": 9555141,
+      "greedy_time_sec": 0.0069,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 15,
+      "milp_covered_pop": 9660143,
+      "milp_time_sec": 0.055,
+      "greedy_covered_pop": 9660143,
+      "greedy_time_sec": 0.0102,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 20,
+      "milp_covered_pop": 9753320,
+      "milp_time_sec": 0.054,
+      "greedy_covered_pop": 9753320,
+      "greedy_time_sec": 0.0136,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 25,
+      "milp_covered_pop": 9837188,
+      "milp_time_sec": 0.054,
+      "greedy_covered_pop": 9837188,
+      "greedy_time_sec": 0.0169,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 5,
+      "radius_label": "operating radius",
+      "budget": 30,
+      "milp_covered_pop": 9917097,
+      "milp_time_sec": 0.054,
+      "greedy_covered_pop": 9917097,
+      "greedy_time_sec": 0.0203,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 3,
+      "milp_covered_pop": 11339060,
+      "milp_time_sec": 0.064,
+      "greedy_covered_pop": 11339060,
+      "greedy_time_sec": 0.0042,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 5,
+      "milp_covered_pop": 11378542,
+      "milp_time_sec": 0.064,
+      "greedy_covered_pop": 11378542,
+      "greedy_time_sec": 0.007,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 8,
+      "milp_covered_pop": 11433002,
+      "milp_time_sec": 0.063,
+      "greedy_covered_pop": 11433002,
+      "greedy_time_sec": 0.0112,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 10,
+      "milp_covered_pop": 11464311,
+      "milp_time_sec": 0.064,
+      "greedy_covered_pop": 11464311,
+      "greedy_time_sec": 0.0141,
+      "gap_people": 0
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 15,
+      "milp_covered_pop": 11534244,
+      "milp_time_sec": 0.063,
+      "greedy_covered_pop": 11531543,
+      "greedy_time_sec": 0.0211,
+      "gap_people": 2701
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 20,
+      "milp_covered_pop": 11593283,
+      "milp_time_sec": 0.064,
+      "greedy_covered_pop": 11584932,
+      "greedy_time_sec": 0.0275,
+      "gap_people": 8351
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 25,
+      "milp_covered_pop": 11637191,
+      "milp_time_sec": 0.063,
+      "greedy_covered_pop": 11629601,
+      "greedy_time_sec": 0.0344,
+      "gap_people": 7590
+    },
+    {
+      "radius_km": 15,
+      "radius_label": "larger radius (more coverage overlap)",
+      "budget": 30,
+      "milp_covered_pop": 11669916,
+      "milp_time_sec": 0.063,
+      "greedy_covered_pop": 11662376,
+      "greedy_time_sec": 0.0409,
+      "gap_people": 7540
+    }
+  ]
+}

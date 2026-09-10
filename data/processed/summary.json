@@ -1,0 +1,89 @@
+{
+  "state": "Ohio",
+  "generated_from": "EV_Charging_Optimization.ipynb",
+  "total_population": 11780046,
+  "total_zones": 1215,
+  "zones_with_stations": 404,
+  "zero_station_gap_zones": 811,
+  "gap_zone_population": 3240333,
+  "total_stations": 1909,
+  "total_level1_ports": 5,
+  "total_level2_ports": 3746,
+  "total_dcfc_ports": 1508,
+  "default_radius_km": 5,
+  "default_budget": 10,
+  "baseline_coverage_pct": 78.6,
+  "baseline_covered_population": 9264909,
+  "radius_sweep": [
+    {
+      "radius_km": 2,
+      "zones_covered": 251,
+      "pct_zones_covered": 20.7,
+      "population_covered": 5175032,
+      "pct_population_covered": 43.9
+    },
+    {
+      "radius_km": 3,
+      "zones_covered": 353,
+      "pct_zones_covered": 29.1,
+      "population_covered": 7165345,
+      "pct_population_covered": 60.8
+    },
+    {
+      "radius_km": 4,
+      "zones_covered": 429,
+      "pct_zones_covered": 35.3,
+      "population_covered": 8482755,
+      "pct_population_covered": 72.0
+    },
+    {
+      "radius_km": 5,
+      "zones_covered": 500,
+      "pct_zones_covered": 41.2,
+      "population_covered": 9264909,
+      "pct_population_covered": 78.6
+    },
+    {
+      "radius_km": 6,
+      "zones_covered": 543,
+      "pct_zones_covered": 44.7,
+      "population_covered": 9554293,
+      "pct_population_covered": 81.1
+    },
+    {
+      "radius_km": 8,
+      "zones_covered": 626,
+      "pct_zones_covered": 51.5,
+      "population_covered": 9955310,
+      "pct_population_covered": 84.5
+    },
+    {
+      "radius_km": 10,
+      "zones_covered": 730,
+      "pct_zones_covered": 60.1,
+      "population_covered": 10402276,
+      "pct_population_covered": 88.3
+    },
+    {
+      "radius_km": 12,
+      "zones_covered": 847,
+      "pct_zones_covered": 69.7,
+      "population_covered": 10830735,
+      "pct_population_covered": 91.9
+    },
+    {
+      "radius_km": 15,
+      "zones_covered": 1003,
+      "pct_zones_covered": 82.6,
+      "population_covered": 11272178,
+      "pct_population_covered": 95.7
+    },
+    {
+      "radius_km": 20,
+      "zones_covered": 1131,
+      "pct_zones_covered": 93.1,
+      "population_covered": 11566775,
+      "pct_population_covered": 98.2
+    }
+  ]
+}
